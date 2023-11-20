@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    /* text-decoration: none; */
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #231f20;
+    color: #ffffff; /* #000000 */
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.header, .main, .footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid red;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__titulo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.header__parrafo {
+    text-align: center;
+}
+
+.main {
+    border: 1px solid yellow;
+}
+
+/* Seccion 1 */
+
+.seccion1 {
+    padding: 2rem;
+}
+
+.seccion1__item {
+    background-color: #f5b5cd;
+    border-radius: 0.5rem;
+    list-style: none;
+    
+}
+
+.seccion1__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.seccion1__enlace {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+/* Seccion 2 */
+
+.seccion2 {
+    padding: 2rem;
+}
+
+.seccion2__mapa {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    padding: 2rem;
+}
+
+.seccion3__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.seccion3__item {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.seccion3__enlace {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #f5b5cd;
+}
+
+/* Seccion 4 */
+
+.seccion4 {
+    padding: 2rem;
+}
+
+.seccion4__banner {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Seccion 5 */
+
+.seccion5 {
+    padding: 2rem;
+}
+
+.seccion5__titulo {
+    text-align: center;
+}
+
+.seccion5__boton {
+    background-color: #f5b5cd;
+    border-color: #f5b5cd;
+    width: 100%;
+}
+
+/* Footer */
+
+.footer {
+    padding: 2rem;
+    border: 1px solid rebeccapurple;
+}
+
+.footer__logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="imagenes/logo-inter-miami-cf.svg" alt="Logo del inter de miami" width="200">
+        <h1 class="header__titulo">Inter de Miami</h1>
+        <p class="header__parrafo">Somos Inter Miami CF y el Sur de Florida es nuestro hogar. 👨‍💻⚽</p>
+    </header>
+    <main class="main">
+        <section class="seccion1">
+            <ul class="seccion1__lista">
+                <li class="seccion1__item">
+                    <a class="seccion1__enlace" href="index.html">Inicio</a>
+                </li>
+            </ul>
+        </section>
+        <section class="seccion5">
+            <h1 class="seccion5__titulo">Contactanos</h1>
+            <form action="https://formspree.io/f/xpzgbaqp" method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="">Tipo de consulta</label>
+                    <select name="tipo" id="tipo" class="form-select" aria-label="Default select example">
+                        <option selected="" disabled="">Seleccione una opcion</option>
+                        <option value="Ayuda">Ayuda</option>
+                        <option value="Comprar">Comprar</option>
+                        <option value="Devolucion">Devolucion</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario con tu consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary seccion5__boton">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="imagenes/logo-mls-inter-miami.svg" alt="Logo MLS" width="200">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
